@@ -1,0 +1,276 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;   /* base font */
+}
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+body{
+font-family: "Fira Sans", serif;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.sub_title{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgba(14, 14, 14,0.70);
+    margin-top: 24px;
+}
+/* common css end */
+
+/* navbar part start */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+nav .nav_warpper{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+
+nav .nav_warpper .btn{
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #006A50;
+    background-color: transparent;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:  .4s;
+}
+nav .nav_warpper .btn a{
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #006A50;
+    padding: 15px 30px;
+    transition: .4s;
+
+}
+nav .nav_warpper .btn:hover{
+   background-color: #006A50;
+   color: #FFF;
+}
+
+nav .nav_warpper .btn:hover a{
+    color: #FFF;
+ }
+ 
+/* navbar part end */
+
+/* banner part start */
+#banner{
+    margin-top: 100px;
+}
+#banner .banner_warpper{
+    background-color: #C6E4D6;
+    padding: 80px  60px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#banner .banner_info .sub_title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(14, 14, 14,0.5);
+    line-height:normal;
+}
+
+#banner .banner_info h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 610px;
+    line-height: normal;
+    padding: 16px 0;
+}
+#banner .banner_info .btn{
+   background-color: #006A50;
+   border-radius: 8px;
+   border: transparent;
+   transition: .4s;
+}
+
+#banner .banner_info .btn:hover{
+    background-color: #055c46;
+ }
+
+#banner .banner_info .btn a{
+    font-weight: 600;
+    font-size: 1.125rem;
+    padding: 17px 34px;
+    color: #FFFFFF;
+}
+
+/* banner part end */
+
+
+/* pillars part start */
+
+#pillars{
+  margin: 80px 0px; 
+}
+
+#pillars .card_warpper {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pillars .card_warpper .card_item{
+padding: 24px;
+width: 302px;
+box-shadow: 0px 0px 0 1px rgba(14, 14, 14,0.15) ;
+border-radius: 16px;
+cursor: pointer;
+}
+
+
+#pillars .card_warpper .card_item .card_icon img{
+    width: 64px;
+    height: 64px;
+}
+#pillars  .card_info h6{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgba(14, 14, 14,0.80);
+    padding: 24px 0px 12px;
+}
+
+#pillars  .card_info p{
+    font-size: 1rem;
+    color: rgba(14, 14, 14,0.70); ;
+}
+
+/* pillars part end */
+
+/* vision part start */
+#vision .card_warpper{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#vision .card_warpper .card_item{
+   width: 410px;
+   padding: 32px;
+   border-radius: 16px;
+   box-shadow: 0 0 4px  #0E0E0E;
+   cursor: pointer;
+}
+#vision  .card_item h6{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: rgba(14, 14, 14,0.80);
+    margin-top: 24px;
+    margin-bottom: 12px;
+ }
+#vision  .card_item p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgba(14, 14, 14,0.70);
+ }
+
+ #vision .card_item button{
+    margin-top: 24px;
+    background-color: #5490F5;
+    border-radius: 8px;
+    border: transparent;
+    display: flex;
+}
+#vision .card_item button a{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    
+}
+
+#vision .card_one{
+    background-color: hsla(218, 89%, 65%, 0.20);
+}
+#vision .card_two{
+    background-color: #C6E4D6;
+}
+#vision .card_two button{
+    background-color:#09A15C;
+    margin-top: 47px;
+}
+
+#vision .card_three {
+    background-color: #F7EBCF;
+}
+#vision .card_three button{
+    background-color: #FFC239;
+}
+
+/* vision part end */
+
+
+/* younus qoutes part start */
+
+#vision .qoutes {
+    margin-top: 48px;
+    padding: 48px 24px;
+    border: 1px solid hsla(0, 0%, 5%, 0.15);
+    border-radius: 16px;
+    position: relative;
+}
+
+#vision .qoutes .qoutes_img{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+#vision .younus_info .pera{
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsla(0, 0%, 5%, 0.80);
+    margin-bottom: 12px;
+}
+
+#vision .younus_info .pro_name{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 24px;
+    color: hsla(0, 0%, 5%, 0.80);
+}
+
+#vision .younus_info .pro_title{
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsla(0, 0%, 5%, 0.60);
+
+}
+/* younus qoutes part end */
